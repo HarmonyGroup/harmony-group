@@ -52,16 +52,16 @@ const MobileNav = ({ mobileNav, setMobileNav }) => {
         </button>
       </div>
       <div className="flex flex-col">
-        <Link href={"/"} className="text-white text-sm border-b border-white/35 py-4">
+        <Link onClick={() => setMobileNav(false)} href={"/"} className="text-white text-sm border-b border-white/35 py-4">
           Home
         </Link>
-        <Link href={"/"} className="text-white text-sm border-b border-white/35 py-4">
+        <Link onClick={() => setMobileNav(false)} href={"/"} className="text-white text-sm border-b border-white/35 py-4">
           About
         </Link>
-        <Link href={"/"} className="text-white text-sm border-b border-white/35 py-4">
+        <Link onClick={() => setMobileNav(false)} href={"/careers"} className="text-white text-sm border-b border-white/35 py-4">
           Careers
         </Link>
-        <Link href={"/"} className="text-white text-sm border-b border-white/35 py-4">
+        <Link onClick={() => setMobileNav(false)} href={"/contact"} className="text-white text-sm border-b border-white/35 py-4">
           Contact
         </Link>
       </div>
