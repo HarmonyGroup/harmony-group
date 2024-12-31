@@ -45,7 +45,7 @@ const Navbar = () => {
               className="flex flex-col gap-0 sm:gap-0.5 text-white text-sm sm:text-xl font-bold"
             >
               <span className="flex gap-1.5">
-                Harmony Group <FaTrademark size={13} />
+                Harmony Group NG <FaTrademark size={13} />
               </span>
               <span className="text-[11px] sm:text-xs font-normal">
                 Expanding Possibilities...

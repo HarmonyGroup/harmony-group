@@ -37,7 +37,7 @@ const Footer = () => {
     <footer className="bg-[#161B21] overflow-x-hidden">
       <div ref={contentRef} className="mx-auto max-w-5xl px-4 py-24 sm:px-6 lg:px-8">
         <h4 className="flex justify-center gap-1.5 text-white text-lg sm:text-2xl text-center font-bold">
-          Harmony Group <FaTrademark size={15} />
+          Harmony Group NG <FaTrademark size={15} />
         </h4>
         <p className="text-white/70 text-xs text-center mt-1 sm:mt-2">
           Expanding Possibilities...
@@ -102,7 +102,7 @@ const Footer = () => {
           <li>
             <Link
               target="_blank"
-              href={"https://www.youtube.com/@HarmonyGroup"}
+              href={"https://www.youtube.com/@HarmonyGroupTV"}
             >
               <PiYoutubeLogo size={25} />
             </Link>

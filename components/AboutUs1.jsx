@@ -54,7 +54,7 @@ const AboutUs1 = () => {
               Olusegun Adebayo
             </p>
             <p className="text-xs md:text-sm font-semibold text-orange-600">
-              Founder, Harmony Group
+              Founder, Harmony Group NG
             </p>
           </div>
         </div>
