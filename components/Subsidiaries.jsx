@@ -11,6 +11,14 @@ import SolarHubImage from "@/assets/asset-4.jpg";
 import HarmonyEnt from "@/assets/asset-6.jpg";
 import HarmonyHomes from "@/assets/asset-7.jpg";
 import HarmonyFarms from "@/assets/asset-8.jpg";
+import HarmonyBookMeLogo from "@/assets/asset-9.png";
+import FarmsLogo from "@/assets/asset-10.png";
+import HomesLogo from "@/assets/asset-11.jpg";
+import PGLogo from "@/assets/asset-12.png";
+import EntLogo from "@/assets/asset-13.png";
+import SolarHubLogo from "@/assets/asset-14.png";
+import HSLogo from "@/assets/asset-15.png";
+
 import { FiExternalLink } from "react-icons/fi";
 
 const Subsidiaries = () => {
@@ -152,17 +160,19 @@ const Subsidiaries = () => {
           </h4>
         </div>
         <div className="flex flex-col gap-16 mt-20 sm:mt-24">
-
+          
           {/* Harmony Stores */}
           <article
             ref={harmonyStoresRef}
             className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
           >
-            <div className="block sm:basis-56">
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
               <Image
                 alt=""
-                src={HarmonyStoresImage}
-                className="aspect-square h-full w-full object-cover"
+                src={HSLogo}
+                className=""
+                height={150}
+                width={150}
               />
             </div>
 
@@ -185,7 +195,11 @@ const Subsidiaries = () => {
               </div>
 
               <div className="sm:flex sm:items-end sm:justify-end">
-                <Link target="_blank" href="https://harmonystores.ng" className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95">
+                <Link
+                  target="_blank"
+                  href="https://harmonystores.ng"
+                  className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
+                >
                   WEBSITE
                   <FiExternalLink size={14} className="-mt-0.5" />
                 </Link>
@@ -198,11 +212,13 @@ const Subsidiaries = () => {
             ref={premierGadgetsRef}
             className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
           >
-            <div className="block sm:basis-56">
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
               <Image
                 alt=""
-                src={PremierGadgetsImage}
-                className="aspect-square h-full w-full object-cover"
+                src={PGLogo}
+                className=" object-cover"
+                height={150}
+                width={150}
               />
             </div>
 
@@ -227,7 +243,8 @@ const Subsidiaries = () => {
 
               <div className="sm:flex sm:items-end sm:justify-end">
                 <Link
-                  target="_blank" href="https://premiergadgets.ng"
+                  target="_blank"
+                  href="https://premiergadgets.ng"
                   className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
                 >
                   Website
@@ -242,11 +259,13 @@ const Subsidiaries = () => {
             ref={solarHubRef}
             className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
           >
-            <div className="block sm:basis-56">
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
               <Image
                 alt=""
-                src={SolarHubImage}
-                className="aspect-square h-full w-full object-cover"
+                src={SolarHubLogo}
+                className=""
+                height={110}
+                width={110}
               />
             </div>
 
@@ -272,7 +291,8 @@ const Subsidiaries = () => {
 
               <div className="sm:flex sm:items-end sm:justify-end">
                 <Link
-                  target="_blank" href="https://solarhub.ng"
+                  target="_blank"
+                  href="https://solarhub.ng"
                   className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
                 >
                   Website
@@ -287,11 +307,13 @@ const Subsidiaries = () => {
             ref={harmonyHomesRef}
             className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
           >
-            <div className="block sm:basis-56">
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
               <Image
                 alt=""
-                src={HarmonyHomes}
-                className="aspect-square h-full w-full object-cover"
+                src={HomesLogo}
+                className=""
+                height={210}
+                width={210}
               />
             </div>
 
@@ -315,7 +337,8 @@ const Subsidiaries = () => {
 
               <div className="sm:flex sm:items-end sm:justify-end">
                 <Link
-                  target="_blank" href="https://harmonyhomes.ng"
+                  target="_blank"
+                  href="https://harmonyhomes.ng"
                   className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
                 >
                   Website
@@ -330,11 +353,13 @@ const Subsidiaries = () => {
             ref={harmonyFarmhouseRef}
             className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
           >
-            <div className="block sm:basis-56">
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
               <Image
                 alt=""
-                src={HarmonyFarms}
-                className="aspect-square h-full w-full object-cover"
+                src={FarmsLogo}
+                className="aspect-square object-cover"
+                height={95}
+                width={95}
               />
             </div>
 
@@ -360,7 +385,8 @@ const Subsidiaries = () => {
 
               <div className="sm:flex sm:items-end sm:justify-end">
                 <Link
-                  target="_blank" href="https://harmonyfarmhouse.ng"
+                  target="_blank"
+                  href="https://harmonyfarmhouse.ng"
                   className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
                 >
                   Website
@@ -375,11 +401,13 @@ const Subsidiaries = () => {
             ref={harmonyEntertainmentRef}
             className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
           >
-            <div className="block sm:basis-56">
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
               <Image
                 alt=""
-                src={HarmonyEnt}
-                className="aspect-square h-full w-full object-cover"
+                src={EntLogo}
+                className=""
+                height={145}
+                width={145}
               />
             </div>
 
@@ -403,7 +431,55 @@ const Subsidiaries = () => {
 
               <div className="sm:flex sm:items-end sm:justify-end">
                 <Link
-                  target="_blank" href="https://harmonyentertainment.ng"
+                  target="_blank"
+                  href="https://harmonyentertainment.ng"
+                  className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
+                >
+                  Website
+                  <FiExternalLink size={14} className="-mt-0.5" />
+                </Link>
+              </div>
+            </div>
+          </article>
+
+          {/* Harmony BookMe */}
+          <article
+            ref={harmonyEntertainmentRef}
+            className="flex flex-col sm:flex-row bg-orange-50 transition hover:shadow-xl"
+          >
+            <div className="flex items-center justify-center sm:basis-56 bg-white">
+              <Image
+                alt=""
+                src={HarmonyBookMeLogo}
+                className=""
+                height={190}
+                width={190}
+              />
+            </div>
+
+            <div className="flex flex-1 flex-col justify-between">
+              <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+                <a href="#">
+                  <h3 className="font-bold uppercase text-gray-900">
+                    Harmony BookMe
+                  </h3>
+                </a>
+
+                <p className="mt-2 line-clamp-4 text-sm/relaxed text-gray-500">
+                  Harmony BookMe is an indispensable companion for all your
+                  travel and entertainment needs. With a mission to simplify and
+                  enrich your adventures, this platform offers a wide array of
+                  services to cater to every travel, leisure and entertainment
+                  satisfaction. Whether you’re a seasoned globetrotter or a
+                  weekend explorer, our platform is here to make your
+                  experiences seamless, convenient, and extraordinary.
+                </p>
+              </div>
+
+              <div className="sm:flex sm:items-end sm:justify-end">
+                <Link
+                  target="_blank"
+                  href="https://harmonyentertainment.ng"
                   className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
                 >
                   Website
