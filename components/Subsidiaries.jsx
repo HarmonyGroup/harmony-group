@@ -470,7 +470,7 @@ const Subsidiaries = () => {
                   travel and entertainment needs. With a mission to simplify and
                   enrich your adventures, this platform offers a wide array of
                   services to cater to every travel, leisure and entertainment
-                  satisfaction. Whether you’re a seasoned globetrotter or a
+                  satisfaction. Whether you&apos;re a seasoned globetrotter or a
                   weekend explorer, our platform is here to make your
                   experiences seamless, convenient, and extraordinary.
                 </p>
@@ -479,7 +479,7 @@ const Subsidiaries = () => {
               <div className="sm:flex sm:items-end sm:justify-end">
                 <Link
                   target="_blank"
-                  href="https://harmonyentertainment.ng"
+                  href="https://harmonybookme.com/"
                   className="flex items-center justify-center gap-2 bg-orange-500 px-5 py-3 text-center text-xs font-bold uppercase text-white transition hover:bg-orange-500/95"
                 >
                   Website
