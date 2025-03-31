@@ -25,6 +25,7 @@ import {
 import BarcodeModal from "@/components/BarcodeModal";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 const Page = () => {
   const [showModal, setShowModal] = useState(false);
@@ -267,21 +268,22 @@ const Page = () => {
             </p>
           </div>
         </div>
-        <button
+        <Link
           ref={buttonRef}
-          onClick={() => setShowModal(true)}
+          // onClick={() => setShowModal(true)}
+          target="_blank"
+          href={'https://paystack.com/pay/giwagardens-resellerid-53717'}
           style={{ textShadow: "1px 2px 2px rgba(0,0,0,0.5)" }}
           className="relative text-white text-2xl sm:text-3xl font-light bg-gradient-to-b from-amber-300 to-yellow-500 rounded-lg px-5 py-2 z-10 mt-6"
         >
-          CLICK HERE TO SCAN
-        </button>
+          CLICK HERE
+        </Link>
 
         <p
           ref={footerTextRef}
           className="text-sm text-white/80 text-center relative z-10 mt-4"
         >
-          Offer valid while promotion is ongoing. For more information <br />{" "}
-          about giwa gardens visit www.giwagardens.com
+          Offer valid while promotion is ongoing. <br /> For more information call 08182012345
         </p>
       </section>
 
